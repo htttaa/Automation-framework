@@ -4,7 +4,7 @@ class HomePage {
     }
   
     clickProductCard() {
-      cy.get('#speakersImg').click(); // Ajuste o seletor conforme o card de produto exibido na tela
+      cy.get('#speakersImg').click();
     }
   }
   
