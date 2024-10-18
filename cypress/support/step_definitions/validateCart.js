@@ -5,17 +5,17 @@ Given('I access the site {string}', (url) => {
 });
 
 Given('I search for a product or select "Shop Now" on a product card displayed on the main screen', () => {
-  cy.get('#speakersImg').click(); // Ajuste o seletor conforme o card de produto exibido na tela
+  cy.get('#speakersImg').click();
 });
 
 Given('I add that item to my cart', () => {
-  // Selecionar o produto desejado e adicionar ao carrinho
+
   cy.get('[data-ng-show="([] | productsFilterForCategoriesProduct:searchResult:minPriceToFilter:maxPriceToFilter:productsInclude).length != 0"] > ul > :nth-child(3)').click(); // Ajuste o seletor conforme o produto específico
-  cy.get('.fixedBtn > .roboto-medium').click(); // Adicionar ao carrinho
+  cy.get('.fixedBtn > .roboto-medium').click();
 });
 
 Given('I click the cart icon displayed in the top navigation bar', () => {
-  // Clicar no ícone do carrinho para verificar os itens
+
   cy.get('#shoppingCartLink').click();
 });
 
