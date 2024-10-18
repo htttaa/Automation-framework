@@ -3,6 +3,8 @@
 ## Tecnologias Utilizadas
 - Cypress
 - Cucumber
+- JavaScript
+- NodeJS.
 
 ## Instalação do Ambiente
 1. Clone o repositório:
