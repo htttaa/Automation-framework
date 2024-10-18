@@ -7,5 +7,5 @@
 ## Instalação do Ambiente
 1. Clone o repositório:
    ```sh
-   git clone <repository-url>
+   git clone <https://github.com/htttaa/Automation-framework.git>
    cd automation-framework
