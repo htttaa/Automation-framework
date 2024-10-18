@@ -17,6 +17,6 @@ When('I click the search icon again or press the ENTER key', () => {
 });
 
 Then('the system should update the page with the search results', () => {
-  cy.url().should('include', 'Tablet'); // Ajuste conforme necessário
-  cy.get('.select').should('contain', 'Tablet'); // Validar que a página foi atualizada
+  cy.url().should('include', 'Tablet');
+  cy.get('.select').should('contain', 'Tablet');
 });
