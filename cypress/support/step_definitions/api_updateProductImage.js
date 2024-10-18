@@ -15,7 +15,7 @@ Given('I update the product image', () => {
         'Content-Type': 'multipart/form-data',
       },
       body: formData,
-      failOnStatusCode: false // Adiciona esta linha para evitar falhas automáticas
+      failOnStatusCode: false
     }).as('updateImage');
   });
 });
